@@ -124,7 +124,7 @@ export default ({ navigation }) => {
                   editable={false}
                   onButtonPress={() =>
                     navigation.push("CurrencyList", {
-                      title: "Quote Currency",
+                      title: "Para Birimleri",
                       isBaseCurrency: false,
                     })
                   }
